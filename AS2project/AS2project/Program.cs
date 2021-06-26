@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AS2project
+namespace AS2Project
 {
     public class Program
     {

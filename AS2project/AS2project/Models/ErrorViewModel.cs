@@ -1,6 +1,6 @@
 using System;
 
-namespace AS2project.Models
+namespace AS2Project.Models
 {
     public class ErrorViewModel
     {

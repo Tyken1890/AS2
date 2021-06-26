@@ -1,4 +1,4 @@
-﻿using AS2project.Models;
+﻿using AS2Project.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace AS2project.Controllers
+namespace AS2Project.Controllers
 {
     public class HomeController : Controller
     {

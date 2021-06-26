@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AS2\\AS2\\AS2project\\AS2project\\AS2project.csproj": {}
+    "D:\\AS2\\AS2\\AS2Project\\AS2Project\\AS2Project.csproj": {}
   },
   "projects": {
-    "D:\\AS2\\AS2\\AS2project\\AS2project\\AS2project.csproj": {
+    "D:\\AS2\\AS2\\AS2Project\\AS2Project\\AS2Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AS2\\AS2\\AS2project\\AS2project\\AS2project.csproj",
-        "projectName": "AS2project",
-        "projectPath": "D:\\AS2\\AS2\\AS2project\\AS2project\\AS2project.csproj",
+        "projectUniqueName": "D:\\AS2\\AS2\\AS2Project\\AS2Project\\AS2Project.csproj",
+        "projectName": "AS2Project",
+        "projectPath": "D:\\AS2\\AS2\\AS2Project\\AS2Project\\AS2Project.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\AS2\\AS2\\AS2project\\AS2project\\obj\\",
+        "outputPath": "D:\\AS2\\AS2\\AS2Project\\AS2Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
